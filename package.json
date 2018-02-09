@@ -1,0 +1,33 @@
+{
+  "name": "sandal-for-postcss",
+  "version": "1.0.0",
+  "description": "basic css library in PostCSS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "postcss library",
+    "sandal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvin1023/sandal-for-postcss.git"
+  },
+  "files": [
+    "reset.css",
+    "function.css",
+    "variable.css",
+    "mixin.css",
+    "README.md"
+  ],
+  "author": "结一 <xuyc_brother@foxmail.com> (https://github.com/marvin1023)",
+  "maintainers": [
+    "结一 <xuyc_brother@foxmail.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvin1023/sandal-for-postcss/issues"
+  },
+  "homepage": "https://github.com/marvin1023/sandal-for-postcss#readme"
+}

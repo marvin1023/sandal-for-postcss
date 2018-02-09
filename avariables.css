@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* stylelint-disable */
+
+:root {
+  --primary: var(--customPrimary, #00c341);
+  --blue: var(--customBlue, #3672a2);
+  --orange: var(--customOrange, #e85308);
+  --green: var(--customGreen, #5fb41b); /* 价格免费色等绿色  */
+  --red: var(--customRed, #e80808);
+
+  --gray3: var(--customGray3, #333);
+  --gray6: var(--customGray6, #666);
+  --gray9: var(--customGray9, #999);
+  --grayC: var(--customGrayC, #ccc);
+  --grayE: var(--customGrayE, #e5e5e5);
+  --grayF: var(--customGrayF, #f3f3f3);
+
+  --colorLink: var(--customColorLink, #188eee);
+  --colorLinkHover: var(--customColorLinkHover, #ccc);
+  --colorBorder: var(--customColorBorder, #eaeaea);
+  --colorOverlay: var(--customColorOverlay, rgba(0, 0, 0, .7));
+  --colorError: var(--customColorError, #e80808); /* 和红色一致 */
+  --colorSuccess: var(--customColorSuccess, #5fb41b); /* 和绿色一致*/
+  --colorDisabledText: var(--customColorDisabledText, #999);
+  --colorDisabledBg: var(--customColorDisabledBg, #e3e3e3);
+  --colorDisabledborder: var(--customColorDisabledborder, #dbdbdb);
+
+  --zIndexHeader: var(--customZIndexHeader, 1000);
+  --zIndexFooter: var(--customZIndexFooter, 2000);
+  --zIndexPopup: var(--customZIndexPopup, 3000);
+  --zIndexOverlay: var(--customZIndexOverlay, 4000); /* 默认高于header和footer部分 */
+}
+/* 该方式可能会被废弃，所以不用
+** :root {
+**   --ellipsis: {
+**     overflow: hidden;
+**     white-space: nowrap;
+**     text-overflow: ellipsis;
+**   };
+**   --inline-block: {
+**     display: inline-block;
+**     vertical-align: middle;
+**   };
+**   --center-block: {
+**     margin-left: auto;
+**     margin-right: auto;
+**   };
+**   --word-break: {
+**     white-space: normal;
+**     word-wrap: break-word;
+**     word-break: break-all;
+**   };
+**   --flex-center: {
+**     display: flex;
+**     align-items: center;
+**     justify-content: center;
+**   };
+**   --disabled: {
+**     cursor: default;
+**     pointer-events: none;
+**   };
+**   --clearfix: {
+**     &::before,
+**     &::after {
+**       content: "";
+**       display: table;
+**     }
+**     &::after {
+**       clear: both;
+**     }
+**   };
+**   --text-justify: {
+**     text-align: justify;
+**     text-align-last: justify;
+**     &::after {
+**       content: "";
+**       display: inline-block;
+**       width: 100%;
+**     }
+**   };
+** }
+*/
+
+@custom-media --iphonex (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3);
