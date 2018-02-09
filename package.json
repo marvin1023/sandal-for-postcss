@@ -1,6 +1,6 @@
 {
   "name": "sandal-for-postcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "basic css library in PostCSS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
   "files": [
     "reset.css",
     "function.css",
-    "variable.css",
+    "variables.css",
     "mixin.css",
     "README.md"
   ],
