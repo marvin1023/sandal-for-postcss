@@ -27,7 +27,7 @@ html {
 body {
   margin: 0;
   font-size: 14px;
-  font-family: system-ui;
+  font-family: -apple-system, BlinkMacSystemFont, "Microsoft YaHei UI", "Microsoft YaHei", Roboto, "Hiragino Sans GB",  "Source Han Sans CN", Fira Sans, "Droid Sans", "Helvetica Neue", arial, sans-serif, "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   line-height: 1.5;
   color: #333;
   background-color: #fff;
