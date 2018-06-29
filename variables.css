@@ -9,24 +9,16 @@
   --red: var(--customRed, #ff3b30);
   --primary: var(--customPrimary, var(--green));
 
-  --colorText1: #000; /* 一级文字色 */
-  --colorText2: #777; /* 二级文字色 */
-  --colorText3: #bbb; /* 三级文字色 */
-
-  --gray3: var(--customGray3, #333);
-  --gray6: var(--customGray6, #666); 
-  --gray9: var(--customGray9, #999);
-  --grayC: var(--customGrayC, #ccc);
-  --grayE: var(--customGrayE, #e5e5e5);
-  --grayF: var(--customGrayF, #f3f3f3);
+  --gray: var(--customGray, #777);
+  --grayLight:var(--customGrayLight, #bbb);
+  --grayBg: var(--customGrayBg, #eee);
+  --grayLine: var(--customGrayLine, #ddd);
 
   --colorLink: var(--customColorLink, var(--primary));
   --colorLinkHover: var(--customColorLinkHover, color(var(--colorLink) alpha(-10%)));
-  --colorBorder: var(--customColorBorder, #ddd);
   --colorOverlay: var(--customColorOverlay, rgba(0, 0, 0, .7));
   --colorError: var(--customColorError, var(--red)); /* 和红色一致 */
   --colorSuccess: var(--customColorSuccess, var(--green)); /* 和绿色一致*/
-
 
   --zIndexHeader: var(--customZIndexHeader, 1000);
   --zIndexFooter: var(--customZIndexFooter, 2000);
