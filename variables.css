@@ -19,7 +19,7 @@
 
   --colorLink: var(--customColorLink, var(--primary));
   --colorLinkHover: var(--customColorLinkHover, color(var(--colorLink) alpha(-10%)));
-  --colorOverlay: var(--customColorOverlay, rgba(0, 0, 0, .7));
+  --colorOverlay: var(--customColorOverlay, rgba(0, 0, 0, .5));
   --colorError: var(--customColorError, var(--red)); /* 和红色一致 */
   --colorSuccess: var(--customColorSuccess, var(--green)); /* 和绿色一致*/
 
