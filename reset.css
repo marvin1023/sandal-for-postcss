@@ -29,7 +29,7 @@ body {
   font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, "Microsoft YaHei UI", "Microsoft YaHei", Roboto, "Hiragino Sans GB",  "Source Han Sans CN", Fira Sans, "Droid Sans", "Helvetica Neue", arial, sans-serif, "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   line-height: 1.5;
-  color: #333;
+  color: #000;
   background-color: #fff;
   min-height: 100%;
 }
@@ -343,7 +343,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Define consistent border, margin, and padding. */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid #ddd;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -405,24 +405,24 @@ input::-ms-reveal {
 */
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #999;
+  color: #bbb;
 }
 
 /* Internet Explorer 10+ */
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #999;
+  color: #bbb;
 }
 
 /* Safari and Chrome */
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #999;
+  color: #bbb;
 }
 
 /* 如不支持placeholder添加class 或者 设置提示的placeholder */
 .placeholder {
-  color: #999;
+  color: #bbb;
 }
 
 /* Tables

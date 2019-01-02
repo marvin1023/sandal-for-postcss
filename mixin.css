@@ -160,7 +160,7 @@
 
 /* linear-gradient实现 */
 /* 安卓4.3- 不支持background-size的百分比 */
-@mixin retina-one-px-bg($direction: top, $color: #eaeaea) {
+@mixin retina-one-px-bg($direction: top, $color: #ddd) {
   background-repeat: no-repeat;
 
   @if $direction == top {
@@ -206,7 +206,7 @@
 
 /* border和transform实现 */
 /* 注意before和after的层级问题 */
-@mixin retina-one-px-border($direction: top, $color: #eaeaea) {
+@mixin retina-one-px-border($direction: top, $color: #ddd) {
   position: absolute;
   left: 0;
   top: 0;
@@ -361,7 +361,7 @@
   overflow: hidden;
 }
 
-@mixin triangle($direction: top, $borderWidth: 6px, $borderColor: #ccc) {
+@mixin triangle($direction: top, $borderWidth: 6px, $borderColor: #bbb) {
   @extend %triangle-basic;
 
   @if $direction == top {
@@ -445,7 +445,7 @@
 
     @include v-arrow;
 
-    color: #ccc;
+    color: #bbb;
     position: absolute;
     right: 15px;
     top: 50%;
