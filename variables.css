@@ -2,16 +2,19 @@
 /* stylelint-disable */
 
 :root {
-  --blue: var(--customBlue, #009eef);
-  --purple: var(--customPurple, #3461fe);
-  --orange: var(--customOrange, #ff9500);
-  --green: var(--customGreen, #08cb6a);
-  --red: var(--customRed, #ff3b30);
-  --primary: var(--customPrimary, var(--green));
+  --blue: var(--customBlue, #009eef); /* 深色用于文字，浅色用于 icon */
+  --blueLight: var(--customBlueLight, #23b8ff);
+  --green: var(--customGreen, #00b276);
+  --greenLight: var(--customGreenLight, #00d798);
+  --red: var(--customRed, #f4621f);
+  --redLight: var(--customRedLight, #ff6923);
+  --purple: var(--customPurple, #3461fe); /* 品牌紫色 */
+  --primary: var(--customPrimary, #009eef);
 
   --gray: var(--customGray, #777);
   --grayLight:var(--customGrayLight, #bbb);
   --grayBg: var(--customGrayBg, #eee);
+  --grayBgLight:var(--customGrayBgLight, #f4f4f4);
   --grayLine: var(--customGrayLine, #ddd);
 
   --colorLink: var(--customColorLink, var(--primary));

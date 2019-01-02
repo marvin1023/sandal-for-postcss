@@ -11,7 +11,7 @@
 
 ```css
 :root {
-  --primary: var(--customPrimary, #00c341);
+  --primary: var(--customPrimary, #009eef);
 }
 ```
 
