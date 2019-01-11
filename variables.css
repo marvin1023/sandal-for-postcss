@@ -7,10 +7,10 @@
   * 如蓝色文字 color(var(--blue) l(-10%)) ，l 表示 lightness
   */
   --blue: var(--customBlue, #23b8ff);
-  --green: var(--customGreen, #00d798);
+  --green: var(--customGreen, #08cb6a);
   --red: var(--customRed, #ff6923);
   --purple: var(--customPurple, #3461fe); /* 品牌紫色 */
-  --primary: var(--customPrimary, #23b8ff); /* 品牌色 */
+  --primary: var(--customPrimary, #08cb6a); /* 品牌色 */
 
   --gray: var(--customGray, #777);
   --grayLight:var(--customGrayLight, #bbb);
